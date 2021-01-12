@@ -5,7 +5,7 @@
  */
 
 const Gpio = require('onoff').Gpio;     // Gpio class 
-const led = new Gpio(1, 'out');         // Export GPIO1 as an output
+const led = new Gpio(66, 'out');         // Export GPIO1 as an output
 let stopBlinking = false; 
 
  // Toggle the state of the LED connected to the GPIO1 every 200 ms
