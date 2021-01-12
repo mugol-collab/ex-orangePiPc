@@ -7,7 +7,7 @@
  *         However, it doesn't free its resources.
  */
 const Gpio = require('onoff').Gpio;     // Gpio class
-const led = new Gpio(66, 'out');         // Export GPIO1 as an output
-const button = new Gpio(65, 'in', 'both');
+const button = new Gpio(64, 'in', 'both'); // Export GPIO1 as an input
+const led = new Gpio(65, 'out');            // Export GPIO1 as an output
 
 button.watch((err, value) => led.writeSync(value));
