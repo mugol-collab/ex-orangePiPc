@@ -1,0 +1,19 @@
+{
+  "name": "keypadmatrix",
+  "version": "1.0.0",
+  "description": "service to capture key from keypad 4 x 3 matrix using orangePi H3 gpio",
+  "main": "keypadMatrix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/if_linux/keypadmatrix.git"
+  },
+  "author": "Marcos Kataoka",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/if_linux/keypadmatrix#readme",
+  "dependencies": {
+    "onoff": "^6.0.1"
+  }
+}
